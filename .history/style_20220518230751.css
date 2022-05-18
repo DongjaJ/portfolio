@@ -196,25 +196,3 @@ p{
 .__major__description{
 	font-size: var(--font-small);
 }
-
-.school{
-	display: flex;
-	align-items: center;
-}
-
-.school__description{
-	margin: 0 16px;
-	text-align: left;
-}
-
-.school_name, .school_period{
-	color: var(--color-light-grey);
-}
-
-.school_name{
-font-size: var(--font-small);
-}
-
-.school_period{
-font-size: var(--font-micro);
-}
