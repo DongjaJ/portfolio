@@ -52,13 +52,6 @@ li{
 	list-style: none;
 }
 
-button{
-	background: transparent;
-	cursor: pointer;
-	border: none;
-	outline: none;
-}
-
 /* Typography */
 h1 {
 	font-size: var(--font-large);
@@ -141,11 +134,8 @@ p{
 }
 
 .home__contact{
-	color: var(--color-white);
 	font-size: var(--font-regular);
 	font-weight: var(--weight-bold);
 	margin: 24px;
 	padding: 8px 12px;
-	border: 2px solid var(--color-white);
-	border-radius: var(--size-border-radius);
 }

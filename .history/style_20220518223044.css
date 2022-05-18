@@ -45,18 +45,8 @@ a{
 }
 
 ul{
-	padding-left: 0;
-}
-
-li{
 	list-style: none;
-}
-
-button{
-	background: transparent;
-	cursor: pointer;
-	border: none;
-	outline: none;
+	padding-left: 0;
 }
 
 /* Typography */
@@ -141,11 +131,7 @@ p{
 }
 
 .home__contact{
-	color: var(--color-white);
 	font-size: var(--font-regular);
 	font-weight: var(--weight-bold);
 	margin: 24px;
-	padding: 8px 12px;
-	border: 2px solid var(--color-white);
-	border-radius: var(--size-border-radius);
 }
