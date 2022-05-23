@@ -248,15 +248,6 @@ font-size: var(--font-micro);
 	padding: 20px 40px;
 }
 
-.skill{
-	margin-bottom: 32px;
-}
-
-.skill_value{
-	height: 3px;
-	background-color: var(--color-orange);
-}
-
 .skill_description{
 	display: flex;
 	justify-content: space-between;
@@ -274,8 +265,4 @@ font-size: var(--font-micro);
 
 .tools{
 	background-color: var(--color-grey);
-}
-
-.tools, .etc{
-	padding: 20px;
 }

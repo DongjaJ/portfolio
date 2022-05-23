@@ -249,7 +249,7 @@ font-size: var(--font-micro);
 }
 
 .skill{
-	margin-bottom: 32px;
+	margin-bottom: 8px;
 }
 
 .skill_value{
@@ -274,8 +274,4 @@ font-size: var(--font-micro);
 
 .tools{
 	background-color: var(--color-grey);
-}
-
-.tools, .etc{
-	padding: 20px;
 }

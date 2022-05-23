@@ -275,7 +275,3 @@ font-size: var(--font-micro);
 .tools{
 	background-color: var(--color-grey);
 }
-
-.tools, .etc{
-	padding: 20px;
-}
