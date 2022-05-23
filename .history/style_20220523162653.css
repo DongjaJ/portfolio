@@ -325,10 +325,6 @@ font-size: var(--font-micro);
 	width: 280px;
 	height: 250px;
 	margin: 2px;
-	background-color: var(--color-light-white);
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .project__img{
@@ -346,14 +342,6 @@ font-size: var(--font-micro);
 	justify-content: center;
 	width: 100%;
 	height: 100%;
-	opacity: 0;
-	transform: translateY(10px);
-	transition: all var(--animation-delay) ease-in;
-}
-
-.project:hover .project__description{
-	transform: translateY(0px);
-	opacity: 0.8;
 }
 
 .project__description h3{
