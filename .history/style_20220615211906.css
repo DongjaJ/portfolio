@@ -407,7 +407,3 @@ font-size: var(--font-micro);
 .testimonial__speech-bubble p{
 	color: var(--color-light-grey);
 }
-
-.testimonial__speech-bubble a{
-	color: var(--color-pink);
-}
