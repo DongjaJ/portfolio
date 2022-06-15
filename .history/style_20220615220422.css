@@ -476,9 +476,4 @@ font-size: var(--font-micro);
 	.project{
 		flex-grow: 1;
 	}
-
-	.testimonial__avatar{
-		width: 80px;
-		height: 80px;
-	}
 }

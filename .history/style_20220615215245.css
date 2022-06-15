@@ -127,7 +127,6 @@ p{
 .navbar__togle-btn{
 	position: absolute;
 	right: 32px;
-	top: 24px;
 	font-size: 24px;
 	color: var(--color-white);
 	display: none;
@@ -456,29 +455,5 @@ font-size: var(--font-micro);
 	}
 	#navbar{
 		flex-direction: column;
-		align-items: flex-start;
-	}
-	.navbar__menu{
-		flex-direction: column;
-		align-items: center;
-		display: none;
-	}
-	.about__major{
-		flex-direction: column;
-	}
-	.major{
-		margin-bottom: 38px;
-	}
-	.skillset{
-		flex-direction: column;
-	}
-
-	.project{
-		flex-grow: 1;
-	}
-
-	.testimonial__avatar{
-		width: 80px;
-		height: 80px;
 	}
 }
