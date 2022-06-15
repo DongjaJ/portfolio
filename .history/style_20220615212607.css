@@ -432,10 +432,8 @@ font-size: var(--font-micro);
 .contact__links{
 	font-size: var(--font-large);
 	margin: 24px 0;
-	transition: all var(--animation-delay) ease-in ;
 }
 
-.contact__links i:hover{
+.contact__links:hover{
 	transform: scale(1.1);
-	color: var(--color-yellow);
 }
