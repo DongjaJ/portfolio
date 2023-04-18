@@ -45,12 +45,19 @@ arrowUp.addEventListener('click', () => {
 const workBtnContainer = document.querySelector('.work__categories');
 const projectContainer = document.querySelector('.work__projects');
 const projects = document.querySelectorAll('.project');
+
 workBtnContainer.addEventListener('click', (e) => {
 	const category =
 		e.target.dataset.category || e.target.parentNode.dataset.category;
 	if (category == null) return;
-	projectContainer.classList.add('anim-out');
 
+	const active = document.querySelector('.category__btn.active');
+	active.classList.remove('active');
+	const target =
+		e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
+	target.classList.add('active');
+
+	projectContainer.classList.add('anim-out');
 	setTimeout(() => {
 		projects.forEach((project) => {
 			if (category === '*' || category === project.dataset.category) {
