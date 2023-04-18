@@ -132,7 +132,7 @@ p {
 	border: 1px solid var(--color-white);
 }
 
-.navbar__togle-btn {
+.navbar__toggle-btn {
 	position: absolute;
 	right: 32px;
 	top: 24px;
@@ -390,7 +390,7 @@ p {
 }
 
 .project__description h3 {
-	color: var(--color-white);
+	color: var(--color-orange);
 }
 
 .project__description h3:after {
@@ -398,9 +398,9 @@ p {
 	display: block;
 	position: relative;
 	left: 50%;
-	width: 25px;
+	width: 50px;
 	height: 2px;
-	margin-left: -12px;
+	transform: translateX(-50%);
 	margin-top: 8px;
 	background-color: var(--color-dark-white);
 }
@@ -498,18 +498,29 @@ p {
 
 /* For below 768px screen with */
 @media screen and (max-width: 768px) {
-	.navbar__togle-btn {
+	.navbar__toggle-btn {
 		display: block;
 	}
 	#navbar {
 		flex-direction: column;
 		align-items: flex-start;
+		background-color: var(--color-pink);
 	}
+
+	#navbar.navbar--dark {
+		padding: 16px;
+	}
+
 	.navbar__menu {
 		flex-direction: column;
-		align-items: center;
+		text-align: center;
 		display: none;
+		width: 100%;
 	}
+	.navbar__menu.open {
+		display: block;
+	}
+
 	.about__major {
 		flex-direction: column;
 	}
