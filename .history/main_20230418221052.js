@@ -1,9 +1,13 @@
 'use strict';
 
-//Make navBar transparent when it is on the top
 const navbar = document.querySelector('#navbar');
 const navBarHeight = navbar.getBoundingClientRect().height;
+
 document.addEventListener('scroll', () => {
-	if (window.scrollY > navBarHeight) navbar.classList.add('navbar--dark');
-	else navbar.classList.remove('navbar--dark');
+	console.log(navBarHeight);
+	navbar.style.backgroundColor = '#ff6863';
+});
+
+document.addEventListener('scrollend', () => {
+	navbar.style.backgroundColor = '#fe918d';
 });

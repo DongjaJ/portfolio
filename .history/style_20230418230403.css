@@ -101,12 +101,10 @@ p {
 	align-items: center;
 	color: var(--color-white);
 	padding: 16px;
-	transition: all var(--animation-delay) ease-in-out;
 }
 
-#navbar.navbar--dark {
+#navbar.dark {
 	background-color: var(--color-pink);
-	padding: 8px;
 }
 
 .navbar__logo {
