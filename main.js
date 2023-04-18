@@ -3,6 +3,7 @@
 //Make navBar transparent when it is on the top
 const navbar = document.querySelector('#navbar');
 const navBarHeight = navbar.getBoundingClientRect().height;
+
 document.addEventListener('scroll', () => {
 	if (window.scrollY > navBarHeight) navbar.classList.add('navbar--dark');
 	else navbar.classList.remove('navbar--dark');
@@ -20,6 +21,12 @@ navbarMenu.addEventListener('click', (e) => {
 const homeContactBtn = document.querySelector('.home__contact');
 homeContactBtn.addEventListener('click', () => {
 	scrollIntoView('#contact');
+});
+
+const home = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+document.addEventListener('scroll', () => {
+	home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
 function scrollIntoView(selector) {
