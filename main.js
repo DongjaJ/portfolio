@@ -100,7 +100,6 @@ const observerCallback = (entries, observer) => {
 		const index = sectionsIds.indexOf(`#${entry.target.id}`);
 		selectedNavIdx = entry.boundingClientRect.y < 0 ? index + 1 : index - 1;
 		const navItem = navItems[selectedNavIdx];
-		// selectNavItem(navItem);
 	});
 };
 
