@@ -10,6 +10,7 @@
 	--color-grey: #616161;
 	--color-light-grey: #7c7979;
 	--color-blue: #73aace;
+	--color-dark-blue: #b0c9f8;
 	--color-yellow: #fff7d1;
 	--color-orange: #feb546;
 	--color-black: #000000;
@@ -106,7 +107,7 @@ p {
 }
 
 #navbar.navbar--dark {
-	background-color: var(--color-pink);
+	background-color: var(--color-blue);
 	padding: 8px;
 }
 
@@ -128,7 +129,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-	background-color: var(--color-dark-pink);
+	background-color: var(--color-dark-blue);
 }
 
 .navbar__menu__item.active {
@@ -146,17 +147,17 @@ p {
 
 /* Home */
 #home {
-	background: url('imgs/homebackground-200515-154505.webp') center/cover
-		no-repeat;
+	background: url('imgs/Gradient\ Blue\ Brand\ Quotes\ Instagram\ Post.png')
+		center/cover no-repeat;
 	padding: 40px;
 	padding-top: 120px;
 	text-align: center;
 }
 
 .home__avatar {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	border-radius: 20%;
 	border: 2px solid var(--color-light-white);
 }
 
@@ -210,7 +211,7 @@ p {
 }
 
 .major__icon i:hover {
-	color: var(--color-pink);
+	color: var(--color-black);
 	transform: rotate(-30deg) scale(1.1);
 }
 
@@ -309,6 +310,10 @@ p {
 	padding: 20px;
 }
 
+.work__categories {
+	margin: 20px 0;
+}
+
 .category__btn {
 	border: solid 1px var(--color-dark-white);
 	border-radius: var(--size-border-radius);
@@ -319,14 +324,14 @@ p {
 
 .category__btn.active,
 .category__btn:hover {
-	background-color: var(--color-pink);
+	background-color: var(--color-blue);
 	color: var(--color-white);
 }
 
 .category__btn.active .category__count,
 .category__btn:hover .category__count {
 	opacity: 1;
-	top: 0;
+	top: 7px;
 }
 
 .category__count {
@@ -338,8 +343,8 @@ p {
 	line-height: 24px;
 	display: inline-block;
 	position: absolute;
-	top: -20px;
 	right: 16px;
+	top: -20px;
 	opacity: 0;
 	transition: all var(--animation-delay) ease-in;
 }
@@ -450,12 +455,12 @@ p {
 }
 
 .testimonial__speech-bubble a {
-	color: var(--color-pink);
+	color: var(--color-blue);
 }
 
 /* Contact */
 #contact {
-	background-color: var(--color-pink);
+	background-color: var(--color-blue);
 }
 
 .contact__title,
@@ -488,7 +493,7 @@ p {
 	font-size: 50px;
 	width: 70px;
 	height: 70px;
-	background-color: var(--color-pink);
+	background-color: var(--color-blue);
 	color: var(--color-white);
 	border-radius: 50%;
 
@@ -527,7 +532,7 @@ p {
 	#navbar {
 		flex-direction: column;
 		align-items: flex-start;
-		background-color: var(--color-pink);
+		background-color: var(--color-blue);
 	}
 
 	#navbar.navbar--dark {

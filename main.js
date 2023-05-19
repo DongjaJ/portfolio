@@ -80,7 +80,7 @@ const sectionsIds = [
 	'#about',
 	'#skills',
 	'#work',
-	'#testimonials',
+	// '#testimonials',
 	'#contact',
 ];
 
